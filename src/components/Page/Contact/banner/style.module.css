@@ -1,0 +1,16 @@
+.contactUs_banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/banner/image_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactUs_banner {
+    width: 100%;
+}
+
+.contactUs_banner{
+    width: 100%;
+}

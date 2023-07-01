@@ -1,0 +1,130 @@
+.background_banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/banner/Group 8 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recruitment_box {
+    background-color: #ffff;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.content_recruitment {
+    width: 65%;
+    margin: auto;
+}
+
+.recruitment_title {
+    background: rgba(24, 172, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+}
+
+.recruitment_title p {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffff;
+}
+
+.box_content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box_list_item {
+    width: 32%;
+    height: auto;
+    background: rgba(232, 244, 255, 1);
+    border: 10px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn_designs {
+    height: 54px;
+    width: 109px;
+    background-color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 54px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+}
+
+.item_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.item_content {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 428px) {
+    .content_recruitment {
+        width: 95%;
+    }
+
+    .box_list_item {
+        width: 100%;
+        height: auto;
+        background: rgba(232, 244, 255, 1);
+        border: 10px;
+        margin-bottom: 25px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .item_content {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.5px;
+    }
+
+    .item_title {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.5px;
+    }
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 1049px) {
+    .content_recruitment {
+        width: 95%;
+    }
+
+    .item_content {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.1px;
+    }
+
+    .box_list_item {
+        height: auto;
+    }
+
+}

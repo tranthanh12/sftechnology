@@ -1,0 +1,206 @@
+.footer {
+    width: 100%;
+    height: 845px;
+    gap: 96px;
+    background-color: #E8F4FF;
+}
+
+.box_information{
+    padding: 96px 252px 48px 252px;
+    display: flex;
+}
+
+
+.address_company {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.form_mesage {
+    width: 30%;
+}
+
+.address_title {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #667085;
+    margin-bottom: 10px;
+}
+
+.logo_company {
+    margin-bottom: 40px;
+}
+
+.address {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #667085;
+    margin-bottom: 40px;
+}
+
+.box_infor {
+    width: 400px;
+}
+
+.title_message {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    color: #667085;
+    margin-bottom: 20px;
+}
+
+.content_message {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #667085;
+}
+
+.form_infor {
+    margin-top: 30px;
+}
+
+.title_input,
+.input_textArea {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #667085;
+    margin-bottom: 30px;
+}
+
+.title_input input {
+    border: none;
+    width: 368px;
+    height: 46px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input_textArea input {
+    border: none;
+    width: 368px;
+    height: 145px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.btn_submit input {
+    width: 147px;
+    height: 46px;
+    padding: 0px 48px 0px 48px;
+    border-radius: 8px;
+    border: 2px solid #1668B2;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, -0.5);
+    color: #1668B2;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.btn_submit input:hover {
+    color: #ffffff;
+    background-color: #1668B2;
+}
+
+.Technologies {
+    width: 100%;
+    text-align: center;
+}
+
+.Technologies p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #667085;
+}
+
+@media screen and (min-width: 360px) and (max-width: 765px) {
+    .btn_submit {
+        text-align: center;
+    }
+
+    .content_message {
+        text-align: center;
+    }
+
+    .title_message {
+        text-align: center;
+    }
+
+    .address_company {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box_information{
+        padding: 96px 5px 48px 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .btn_submit input {
+        width: auto;
+    }
+
+    .box_infor {
+        width: 100%;
+    }
+
+    .input_textArea input {
+        width: 100%;
+    }
+    
+    .title_input input {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+    .box_information{
+        padding: 96px 5px 48px 5px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 970px) {
+    .box_information{
+        padding: 96px 10px 48px 10px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1350px) {
+    .box_information{
+        padding: 96px 115px 48px 115px;
+        display: flex;
+    }
+}

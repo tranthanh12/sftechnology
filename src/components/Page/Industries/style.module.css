@@ -1,0 +1,102 @@
+.background_banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/banner/Group 8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_industrie {
+    width: 80%;
+    height: 88px;
+    background-image: url('/images/industrie/Frame 42958.png');
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.box_industrie {
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #ffffff;
+}
+
+.box_support {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.box_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.box_item .item {
+    width: 33.33%;
+    height: 384px;
+    background: rgba(222, 245, 255, 1);
+    border-radius: 10px;
+}
+
+.title_item {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 25%;
+    color: #25AAE1;
+    margin-bottom: 20px;
+}
+
+.item_icon img{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 360px) and (max-width: 549px) {
+
+    .box_support {
+        width: 95%;
+    }
+
+    .box_item .item {
+        width: 50%;
+        height: 225px;
+        background: rgba(222, 245, 255, 1);
+        border-radius: 10px;
+    }
+
+    .title_item {
+        font-size: 12px;
+    }
+
+    .item_icon img{
+        width: 30%;
+    }
+
+    .banner_industrie {
+        padding: 10px 0px 0px 0px;
+        height: 30px;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1049px) {
+    .box_item .item {
+        height: 300px;
+    }
+}

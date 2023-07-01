@@ -1,0 +1,138 @@
+.box_introduce {
+    width: 100%;
+    padding-top: 40px;
+    background-color: #ffffff;
+}
+
+.introduce_container {
+    width: 65%;
+    margin: auto;
+}
+
+.introduce_title {
+    width: Fixed (1, 210px);
+    height: Hug (782px);
+    top: 895px;
+    left: 355px;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.introduce_title p {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    background: rgba(37, 170, 225, 1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.introduce_list_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: 'justified';
+    color: #979797;
+    justify-content: space-between;
+}
+
+.item {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.line_1{
+    margin-bottom: 10PX;
+    border-bottom: 1px solid #979797;
+    width: 145px;
+}
+
+
+.button_contact_us {
+    margin-top: 20px;
+}
+
+.button_contact_us input {
+    display: block;
+    width: Hug (270PX);
+    height: Hug (70PX);
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #1668B2;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background: #1668B2;
+}
+
+.button_contact_us input:hover {
+    border: 1px solid #1668B2;
+    color: #1668B2;
+    background: rgba(0, 0, 0, -0.5);
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1350px) {
+    .introduce_container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 1350px) and (max-width: 1499px) {
+    .introduce_container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1049px) {
+    .introduce_container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 549px) {
+    .introduce_title p {
+        font-size: 25px;
+    }
+
+    .introduce_container {
+        width: 85%;
+        margin: auto;
+    }
+
+    .introduce_list_item {
+        display: flex;
+        flex-direction: column;
+        font-size: 21px;
+    }
+    
+    .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .line_1{
+        margin-bottom: 10PX;
+        border-bottom: 1px solid #979797;
+        width: 100%;
+    }
+
+    .button_contact_us input {
+        margin: auto;
+    }
+    
+}
