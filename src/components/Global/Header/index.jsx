@@ -43,7 +43,7 @@ const index = () => {
                                     </li>
                                     <li className="menu__item menu__item--language"><span className="current-language"><span className="current-language__text">EN</span><i className="material-icons current-language__icon current-language__icon--expand">expand_more</i>
                                         <i className="material-icons current-language__icon current-language__icon--collapse">expand_less</i></span>
-                                        <div className="language-dropdown" bis_skin_checked={1}> <a href="https://kr.ntq.com.vn/" className="language-dropdown__option" bis_skin_checked={1}> KR </a> <a href="https://jp.ntq.com.vn/" className="language-dropdown__option" bis_skin_checked={1}> JP </a> <a href="https://ntq.com.hk/?utm_source=ntqsolution&utm_medium=language" className="language-dropdown__option" bis_skin_checked={1}> ZH </a> </div>
+                                        <div className="language-dropdown" bis_skin_checked={1}> <a href="https://kr.ntq.com.vn/" className="language-dropdown__option" bis_skin_checked={1}> VN </a> </div>
                                     </li>
                                 </ul>
                             </div>
