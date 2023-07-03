@@ -1930,15 +1930,31 @@ html {
   display: inline-block
 }
 
+.logo_1 {
+  max-width: 6rem;
+  display: none
+}
+
+
 @media screen and (min-width: 576px) {
   .logo {
     max-width: 9rem
+  }
+
+  .navbar:hover .logo_1 {
+    max-width: 9rem;
+    display: inline-block
   }
 }
 
 @media screen and (min-width: 992px) {
   .logo {
     max-width: 12rem
+  }
+
+  .navbar:hover .logo_1 {
+    max-width: 12rem;
+    display: inline-block
   }
 }
 
@@ -2156,15 +2172,25 @@ html {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.navbar:hover .logo {
+  display: none;
+}
+
+.navbar:hover .logo_1 {
+  max-width: 9rem;
+  display: inline-block
+}
+
 @media screen and (min-width: 992px) {
   .navbar:not(.navbar--not-found):hover {
     transition: background-color .65s cubic-bezier(.4, 0, .2, 1);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
   }
 
   .navbar {
     background: rgba(0, 0, 0, 3);
   }
+  
 }
 
 .navbar:not(.navbar--not-found):hover .custom-button-contact {
@@ -2201,6 +2227,10 @@ html {
   }
 
   .navbar {
+    background: rgba(0, 0, 0, 3);
+  }
+
+  .navbar:hover {
     background: rgba(0, 0, 0, 3);
   }
 }
@@ -4407,6 +4437,10 @@ element.style {
     background: rgba(0, 0, 0, 0.3);
   }
 
+  .navbar:hover{
+    background: rgba(0, 0, 0, 0.6);
+  }
+
   .product-container .grid--c55-45 {
     grid-template-columns: 55% auto;
   }
@@ -4568,4 +4602,8 @@ element.style {
   .container {
     max-width: 183rem;
   }
+}
+
+.navbar:hover{
+  background: rgba(0, 0, 0, 0.6);
 }
